@@ -2532,4 +2532,8 @@ background: #668333 url('../images/search.png') no-repeat -4px -1px;
 	font-size: 1.75em;
 	font-weight: 1000;
 }
+.m-icon:hover{
+	color: #0AA5E2;
+	
+}
 
