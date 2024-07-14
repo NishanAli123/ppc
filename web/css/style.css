@@ -49,6 +49,10 @@ body a{
 	padding: 4px 80px 4px 6px;
 }
 .head-bann{
+	display: flex;
+	align-items: center;
+	gap: 0.1em;
+	
 }
 .head-nav {
 	float:right;
@@ -73,13 +77,15 @@ body a{
 	color:#3F8DA3;
 }
 .banner{
-	background: url(../images/banner.jpg) no-repeat center top;
+	background: url(../PPC/banner/two.png) no-repeat center top;
 	background-size: cover;
 	-webkit-background-size:cover; 
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-ms-background-size:cover;
 	min-height:520px;
+	background-attachment: fixed;
+
 }
 .banner-info{
 	padding:8em 0em 0em;
@@ -94,7 +100,7 @@ body a{
 	width: 30%;
 	margin-left: 9em;
 	background: #4391A5;
-	padding: 0.8em;
+	padding: 1em;
 	line-height:1.8em;
 }
 .banner span {
@@ -141,7 +147,7 @@ ul.wmuSliderPagination {
 .wmuGallery .wmuGalleryImage {
 	margin-bottom: 10px;
 }
-.wmuSliderPrev, .wmuSliderNext {
+/*.wmuSliderPrev, .wmuSliderNext {
 	position: absolute;
 	width:27px;
 	height:62px;
@@ -150,7 +156,7 @@ ul.wmuSliderPagination {
 	top:35%;
 	z-index: 2;
 	cursor: pointer;
-}
+}*/
 .wmuSliderNext {
 	background-position:-28px 4px;
 	right: 0em;
@@ -239,33 +245,33 @@ ul.wmuSliderPagination {
 	line-height:1.8em;
 }
 .grid1 h3{
-	font-size: 3em;
+	font-size: 2em;
 	font-weight: 800;
 	color: #fff;
 	text-transform: uppercase;
 	text-shadow: 0 0 6px #626464;
 	position: absolute;
 	top: 90px;
-	right: 85px;
+	right: 100px;
 }
 .grid2 h3{
-	font-size: 3em;
+	font-size: 2em;
 	font-weight: 800;
 	color: #fff;
 	text-transform: uppercase;
 	text-shadow: 0 0 6px #626464;
 	position: absolute;
-	top: 90px;
-	right: 70px;
+	top: 50px;
+	right: 1px;
 }
 .grid3 h3{
-	font-size: 3em;
+	font-size: 2em;
 	font-weight: 800;
 	color: #fff;
 	text-transform: uppercase;
 	text-shadow: 0 0 6px #626464;
 	position: absolute;
-	top: 90px;
+	top: 50px;
 	right: 80px;
 }
 i.arrow {
@@ -441,7 +447,7 @@ a.read:hover{
 .connect ul{
 	padding:0;
 }
-i.fb {
+/*i.fb {
 	width: 34px;
 	height: 34px;
 	background: url(../images/img-sprite.png)no-repeat -95px -16px;
@@ -453,7 +459,7 @@ i.fb:hover{
 i.twt{
 	width: 34px;
 	height: 34px;
-	background: url(../images/img-sprite.png)no-repeat -138px -16px;
+	background: url(../PPC/banner/telegram-3-256.png)no-repeat -138px -16px;
 	display: inline-block;
 }
 i.twt:hover{	
@@ -471,7 +477,7 @@ i.yout:hover{
 i.payp {
 	width: 34px;
 	height: 34px;
-	background: url(../images/img-sprite.png)no-repeat -225px -17px;
+	background: url(../PPC/banner/instagram-32.png)no-repeat -225px -17px;
 	display: inline-block;	
 }
 i.payp:hover{
@@ -485,7 +491,7 @@ i.email {
 }
 i.email:hover{
 	opacity: 0.4;
-}
+}*/
 .bottom p{
 	font-size:1.1em;
 	font-weight:400;
@@ -2513,3 +2519,17 @@ background: #76B2C3 url('../images/search.png') no-repeat -4px -1px;
 background: #668333 url('../images/search.png') no-repeat -4px -1px;
 }
 }
+
+.c-slide{
+	width: 100%;
+	height: 100%;
+}
+.n-icon:hover{
+	color: darkred;
+	
+}
+.ppc-txt{
+	font-size: 1.75em;
+	font-weight: 1000;
+}
+
