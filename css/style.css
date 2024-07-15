@@ -2537,3 +2537,15 @@ background: #668333 url('../images/search.png') no-repeat -4px -1px;
 	
 }
 
+@media (max-width: 1024px) {
+    .mission-1 p {
+        font-size: 0.5em;
+    }
+}
+.mission-1 p {
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #5F5F5F;
+    line-height: 1.8em;
+    margin: 1em 0em;
+}
